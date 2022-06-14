@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add lines below to avoid Get error for flavico.ico -->
+    <!-- <link rel="shortcut icon" href="" /> -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <!-- Google Fonts.  Poppins, sans-serif -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./quizstyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="quiz.js" defer></script>
+
+    <section class="quiz-section">
+      <div class="quiz-container">
+        <form class="quiz-form" id="quiz">
+          <!-- Question-->
+          <h3 class="question" id="question">Question</h3>
+          <div class="form-center">
+            <!-- Answers a-->
+            <input type="radio" class="answer" name="answer" id="a" />
+            <label class="ans_text" for="a" id="text_a"
+              >answer_aaskfk afakjfa jafa andnandna ndnandandaafafhafal </label
+            ><br /><br />
+            <!-- Answers end -->
+            <input type="radio" class="answer" name="answer" id="b" />
+            <label class="ans_text" for="b" id="text_b">answer_b</label
+            ><br /><br />
+            <!-- Answers end-->
+            <!-- Answers end -->
+            <input type="radio" class="answer" name="answer" id="c" />
+            <label class="ans_text" for="c" id="text_c">answer_c</label
+            ><br /><br />
+
+            <!-- Answers end-->
+            <!-- Answers end -->
+            <input type="radio" class="answer" name="answer" id="d" />
+            <label class="ans_text" for="d" id="text_d">answer_d</label>
+            <br /><br />
+            <!-- Answers end-->
+            <!-- end form center -->
+          </div>
+          <button class="btn" id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
